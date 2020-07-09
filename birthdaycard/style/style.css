@@ -188,7 +188,7 @@ p{
    border-radius: 20px;
    padding: .5%;
    width:92%;
-   font-size: large;
+   font-size: medium;
 }
 #input-btn{
     
@@ -197,6 +197,6 @@ p{
     border-radius: 50%;
     background-color: rgb(4, 49, 4);
     color: white;
-    font-size: large;
+    font-size: medium;
 }
 
