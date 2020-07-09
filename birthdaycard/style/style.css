@@ -177,10 +177,8 @@ p{
 }
 .input-wrapper{
     background-color: rgb(166, 172, 166);
-    
     width: 100%;
     padding: 10px;
-    
     position: absolute;
     bottom: 0%;
     
@@ -188,7 +186,7 @@ p{
 #inputbox{
    height: 50px;
    border-radius: 30px;
-   padding: 16px;
+   padding: 1%;
    width:95%;
    font-weight: bold;
    font-size: large;
