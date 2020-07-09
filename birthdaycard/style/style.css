@@ -159,6 +159,14 @@ p{
     color: rgb(120, 255, 102);
 }
 
+#LR{
+    color: rgb(92, 30, 30);
+}
+
+#VRN{
+    color: darkslategray;
+}
+
 .chat-me{
 
     background-color: rgb(190, 233, 190);
