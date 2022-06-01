@@ -42,6 +42,10 @@ h6 {
   font-family: "Kanit";
 }
 
+a {
+  text-decoration: none;
+}
+
 p {
   font-size: 0.8rem;
   font-family: "Nunito Sans";
@@ -102,7 +106,10 @@ p {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+
+  
 }
+
 
 .intro-section h2 {
   color: #666666;
@@ -271,4 +278,29 @@ p {
 .bottom-section p {
   font-size: 1rem;
 }
+
+@media (max-width: 600px){
+  .a4-wrapper{
+    width: 100vw;
+    height: 100%;
+  }
+
+  .social-section{
+    -ms-flex-direction: column;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8px 6px;
+  }
+
+  p, h1, h2,h3,h4,h5,h6{
+    padding: 0 6px;
+  }
+  h2{
+    padding: 4px 6px;
+  }
+  .print-button{
+    display: none;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
